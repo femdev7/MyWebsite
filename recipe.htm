@@ -1,48 +1,72 @@
 <!DOCTYPE html>
-<html>
-<head>
-<!-- Title for browser window -->
-<title>My Favorite Recipe</title>
-</head>
-<body>
-<!-- Main title -->
-<h1>Hot Dogs</h1>
-<!-- Hot dog picture -->
-<p><img src="hotdog.png" alt="Hot dog" width="500"/></p>
-<p>Here is my unique gourmet hot dog recipe.</p>
-<!-- Subheading -->
-<h2>Ingredients</h2>
-<!-- Unordered (bulleted) list -->
-<ul>
-<li>Hot dogs</li>
-<li>Hot dog buns</li>
-<li>Mustard</li>
-<li>Relish</li>
-<li>Chopped onions</li>
-</ul>
-<!-- Subheading -->
-<h2>Directions</h2>
-<!-- Ordered (numbered) list -->
-<ol>
-<!-- Special character for degrees below -->
-<li>Preheat grill to 350&deg;.</li>
-<li>Place dogs on grill, roll occasionally for even cooking.</li>
-<li>Place cooked dogs in buns.</li>
-<li>Apply mustard, relish, and onions to  taste.</li>
-<li>Eat and enjoy!</li>
-</ol>
-<!-- Table with borders and right-aligned numbers -->
-<table border="1" cellspacing="0" cellpadding="10" align="center">
-<tr><th colspan="2">Nutritional Information</th></tr>
-<tr><th>Ingredient</th><th>Calories</th></tr>
-<tr><td>Hot Dog</td><td align="right">150</td></tr>
-<tr><td>Bun</td><td align="right">90</td></tr>
-<tr><td>Ketchup</td><td align="right">10</td></tr>
-</table>
-<p>
-<!-- Links to other pages -->
-<a href="http://www.allrecipes.com">More Great Recipes</a>
-<a href="index.html">Home</a>
-</p>
-</body>
+  <html>
+  <head>
+  <!-- Title for browser window -->
+  <title>My Favorite Recipe</title>
+  <!-- Link to external CSS style sheet -->
+  <link rel="stylesheet" href="stylesheet.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Describe the page here up to 155 characters" />
+  <meta name="author" content="Put your name here" />
+  </head>
+  <body>
+  <!-- Wrapper (container) div for entire page layout -->
+  <div id="wrapper">
+  <!-- Page header -->
+  <header>
+  <img src="logo.png" style="float:left; height: 58px" alt="">
+  <h1  style="float:left;">&nbsp;Page Header</h1>
+  <!-- Navigation bar -->
+  <nav>
+  &nbsp;&nbsp;&nbsp;<a href="index.htm">Home</a>
+  &nbsp;&nbsp;&nbsp;<a href="recipe.htm">Hot Dog</a>
+  &nbsp;&nbsp;&nbsp;<a href="https://allrecipes.com/">All Recipes</a>
+  </nav>
+  </header>
+  <!-- Start of main page content -->
+  <main>
+  <!-- Main title -->
+  <h1>Hot Dogs</h1>
+  <!-- Hot dog picture -->
+  <p><img src="hotdog.png" alt="Hot dog" width="500"/></p>
+  <p>Here is my unique gourmet hot dog recipe.</p>
+  <!-- Subheading -->
+  <h2>Ingredients</h2>
+  <!-- Unordered (bulleted) list -->
+  <ul>
+  <li>Hot dogs</li>
+  <li>Hot dog buns</li>
+  <li>Mustard</li>
+  <li>Relish</li>
+  <li>Chopped onions</li>
+  </ul>
+  <!--  Subheading -->
+  <h2>Directions</h2>
+  <!-- Ordered  (numbered) list -->
+  <ol>
+  <!-- Special character for degrees below -->
+  <li>Preheat grill to 350&deg;.</li>
+  <li>Place dogs on grill, roll occasionally for even cooking.</li>
+  <li>Place cooked dogs in buns.</li>
+  <li>Apply mustard, relish, and onions to taste.</li>
+  <li>Eat and enjoy!</li>   
+  </ol>
+  <!-- Table with borders and right-aligned numbers -->
+  <table border="1" cellspacing="0" cellpadding="10" align="center">
+  <tr><th colspan="2">Nutritional Information</th></tr>
+  <tr><th>Ingredient</th><th>Calories</th></tr>
+  <tr><td>Hot  Dog</td><td align="right">150</td></tr>
+  <tr><td>Bun</td><td  align="right">90</td></tr>
+  <tr><td>Ketchup</td><td align="right">10</td></tr>
+  </table>
+  <p>
+  <!-- Links to other pages -->
+  <a href="http://www.allrecipes.com">More Great Recipes</a> 
+  <a href="index.html">Home</a>
+  </p>
+  </main>
+  </div> 
+  <!-- End wrapper -->
+  </body>
 </html>

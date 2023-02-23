@@ -1,30 +1,44 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <!--Title in browser window-->
-<title>My Website</title>
-<!--Start on internal style sheet-->
-<style>
-body{
-    text-align: center;
-    background-color: #ffeec6;
-    color: #2d3b71;
-}
-  h1{
-     color: #64001f;   
-    }
-</style>
-<!--End of internal style sheet-->
-</head>
-<body>
-    <!--Main page title-->
-<h1>Welcome to My Site</h1>
-<p><img src="welcome.png" alt="Welcome"/></p>
-<p style="text-align: left;">This is text on my home page. I am a sentence that contains some <strong>boldface</strong> text and some <em>italic</em> text.</p>
-<p style="text-align: left;">This is a practice paragraph that contains multiple sentences. A longer paragraph like this will allow me to see <em>word wrap</em> in action in my Web browser. Word wrap means that the text will wrap to fit the width of the browser window. So long as the browser window is a reasonable width, text will not shoot off past the right edge of the window forcing me to scroll to the right to see it. The wrapping occurs at spaces between words at the ends of lines. That prevents any individual word from being split across two lines.</p>
-<p>
-<a href="recipe.html">See My Hot Dog Recipe</a>
-</p>
-<p>This is another test 10:42AM</p>
-</body>
+<!DOCTYPE  html>
+   <html>
+      <head>
+      <!-- Title in browser window -->
+      <title>My Website</title>
+      <!-- Link to external CSS style sheet -->
+      <link rel="stylesheet" href="stylesheet.css">
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta name="description" content="Describe the page here up to 155 characters" />
+      <meta name="author" content="Put your name here" />   
+      </head>
+      <body>
+      <!-- Wrapper (container) div for entire page layout -->
+            <div id="wrapper">
+            <!-- Main page header -->
+            <header>
+            <img src="logo.png" style="float:left; height:58px;" alt="">
+            <h1 style="float:left;">&nbsp;Page Header</h1>
+            <!-- Navigation bar -->
+            <nav>
+            &nbsp;&nbsp;&nbsp;<a href="index.htm">Home</a>
+            &nbsp;&nbsp;&nbsp;<a href="recipe.htm">Hot Dog</a>
+            &nbsp;&nbsp;&nbsp;<a href="https://allrecipes.com/">All Recipes</a>
+            </nav>
+            </header>
+            <!-- Start of main page content -->
+            <main>
+            <!-- Center page title and image  -->
+            <div style="text-align:center;">
+            <!-- Main page title -->
+            <h2>Welcome to My  Site</h2>
+            <p><img  src="welcome.png" alt="Welcome"/></p>
+            </div>
+            <p>This is text on my home page. I am a sentence that contains some <strong>boldface</strong>  text and some <em>italic</em> text.</p>
+            <p>This is a practice paragraph that contains multiple sentences. A longer paragraph like this will  allow me to see <em>word wrap</em> in action in my Web browser. Word wrap means that the text will wrap to fit the width of the browser window. So long as the browser window is a reasonable width, text will not shoot off  past the right edge of the window forcing me to scroll to the right to see it.  The wrapping occurs at spaces between words at the ends of lines. That prevents  any individual word from being split across two lines.</p>
+            <p>
+            <a href="recipe.html">See My Hot Dog Recipe</a>
+            </p>
+            </main>
+      </div>
+      <!-- End wrapper -->
+      </body>
 </html>
